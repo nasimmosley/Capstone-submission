@@ -273,7 +273,7 @@ with fun:
             #return big_names_list
             for name in big_names_list:
                 if len(name)< 9:
-                    return big_names_list
+                    return sorted(set(big_names_list))
                 elif len(name)>9 and len(name) %2 ==0:
                     new_name = name[:len(name)//2], name[len(name)//2:]
                     new_list.append(new_name)
