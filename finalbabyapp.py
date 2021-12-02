@@ -299,4 +299,5 @@ with fun:
     with col2:
         st.markdown('##')
         st.image(image2, width=100, use_column_width=True)
+       
     
